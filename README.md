@@ -48,9 +48,11 @@ Esses princípios podem ser aplicados a qualquer linguagem de POO.
 - É melhor criar interfaces especificas do que uma única interface generica.
 - A solução para o problema de ISP é criar interfaces baseadas na interface só que mais especificas.
 
-### D
+### D - Dependency Inversion Principle (Princípio de Inversão de Dependência)
 
--
+- Dependa de abstrações e não de implementações
+- Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração.
+- Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
 
 ### Referências
 
