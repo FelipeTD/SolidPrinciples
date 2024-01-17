@@ -1,5 +1,6 @@
 # SolidPrinciples
 Projeto para estudar principios do SOLID
+
 SOLID são cinco princípios da programação orientada a objetos que facilitam no desenvolvimento de ‘softwares’, tornando-os fáceis de manter e estender. 
 
 Esses princípios podem ser aplicados a qualquer linguagem de POO.
@@ -19,11 +20,19 @@ Esses princípios podem ser aplicados a qualquer linguagem de POO.
     - Torna o sistema engessado e frágil para alterações devido às dependências
   - Dificuldades em testes automatizados
     - É difícil "mockar" esse tipo de classe 
+
 ### O
+
 -
+
 ### L
+
 -
+
 ### I
+
 -
+
 ### D
+
 -
