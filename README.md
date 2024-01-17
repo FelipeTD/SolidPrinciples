@@ -21,9 +21,12 @@ Esses princípios podem ser aplicados a qualquer linguagem de POO.
   - Dificuldades em testes automatizados
     - É difícil "mockar" esse tipo de classe 
 
-### O
+### O - Open Closed Principle (Princípio Aberto Fechado)
 
--
+- Objetos ou entidades devem estar abertos para extensão, mas fechados para modificação
+- Quando novos comportamentos e recursos precisam ser adicionados no ‘software’, devemos estender e não alterar o código-fonte original
+- Como diria 'Uncle Bob': Separe o comportamento extensível por trás de uma ‘interface’ e inverta as dependências
+- Esse princípio é a base para o padrão de projeto 'Strategy'
 
 ### L
 
