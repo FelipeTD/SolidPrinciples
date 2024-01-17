@@ -1,4 +1,4 @@
-package srp.method;
+package srp.badExample.method;
 
 import java.util.List;
 
@@ -6,6 +6,7 @@ public class SRPMethodRuim {
 
     // Ruim
     // Busca os clientes e envia um e-mail se o cliente for encontrado
+    // Tem duas funções no mesmo método
     public void emailClients(List<String> clients) {
 
         clients.forEach(client -> {

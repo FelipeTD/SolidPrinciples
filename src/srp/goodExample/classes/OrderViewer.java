@@ -1,4 +1,4 @@
-package srp.order;
+package srp.goodExample.classes;
 
 public class OrderViewer {
 
