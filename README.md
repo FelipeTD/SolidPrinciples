@@ -42,9 +42,11 @@ Esses princípios podem ser aplicados a qualquer linguagem de POO.
   - Lançar uma exceção inesperada
   - Retornar valores de tipos diferentes da classe base
 
-### I 
+### I — Interface Segregation Principle (Princípio de Segregação da Interface)
 
--
+- Uma classe não deve ser forçada a implementar ‘interfaces’ e métodos que não irão utilizar.
+- É melhor criar interfaces especificas do que uma única interface generica.
+- A solução para o problema de ISP é criar interfaces baseadas na interface só que mais especificas.
 
 ### D
 
