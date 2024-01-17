@@ -1,4 +1,4 @@
-package srp.method;
+package srp.goodExample.method;
 
 import java.util.List;
 

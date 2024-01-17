@@ -1,4 +1,4 @@
-package srp.order;
+package srp.badExample.classes;
 
 // Essa classe lida com 3 informações
 // Informações do pedido, Exibição e Manipulação dos dados
