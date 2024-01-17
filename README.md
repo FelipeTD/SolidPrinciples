@@ -7,7 +7,7 @@ Esses princípios podem ser aplicados a qualquer linguagem de POO.
 
 ## Definição
 
-### S - Single Responsiblity Principle (Princípio da responsabilidade única)
+### S — Single Responsiblity Principle (Princípio da responsabilidade única)
 - Explicação
   - Uma classe deve ter um, e somente um, motivo para mudar.
   - Uma classe deve ter apenas uma responsabilidade no ‘software’.
@@ -21,18 +21,28 @@ Esses princípios podem ser aplicados a qualquer linguagem de POO.
   - Dificuldades em testes automatizados
     - É difícil "mockar" esse tipo de classe 
 
-### O - Open Closed Principle (Princípio Aberto Fechado)
+### O — Open Closed Principle (Princípio Aberto Fechado)
 
 - Objetos ou entidades devem estar abertos para extensão, mas fechados para modificação
 - Quando novos comportamentos e recursos precisam ser adicionados no ‘software’, devemos estender e não alterar o código-fonte original
 - Como diria 'Uncle Bob': Separe o comportamento extensível por trás de uma ‘interface’ e inverta as dependências
 - Esse princípio é a base para o padrão de projeto 'Strategy'
 
-### L
+### L — Liskov Substitution Principle (Princípio da substituição de Liskov)
 
--
+- Uma classe derivada deve ser substituível por sua classe base.
+- Introduzido por Barbara Liskov.
+- Exemplo:
+  - se S é um subtipo de T, então os objetos do tipo T, num programa, podem ser trocados pelos objetos de tipo S sem ser necessário alterar as propriedades deste programa.
+- Para não violar o LSP é necessário em alguns casos considerar o OCP e ISP, além de estrutura muito bem as suas abstrações.
+- Seguir o LSP nos permite usar o poliformismo com mais confiança.
+- Podemos chamar as nossas classes derivadas referindo-se à sua classe base sem preocupações com resultados inesperados.
+- Violação de LSP
+  - Sobrescrever / implementar um método que não faz nada
+  - Lançar uma exceção inesperada
+  - Retornar valores de tipos diferentes da classe base
 
-### I
+### I 
 
 -
 
